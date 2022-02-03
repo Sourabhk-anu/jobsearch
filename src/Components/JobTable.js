@@ -72,7 +72,6 @@ const JobTable = () => {
             }
         ])
 
-
         function onChangeHandle(e){ 
             console.log("e.target.value", e.target.value);
             if(e.target.value === '') {
